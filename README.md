@@ -100,17 +100,6 @@ upstream	git@github.com:mitsuhisaT/django-rpi-tph-docs.git (fetch)
 upstream	git@github.com:mitsuhisaT/django-rpi-tph-docs.git (push)
 ```
 
-Syncronize upstream, document main repository.
-
-```shell
-$ git fetch upstream
-From github.com:mitsuhisaT/django-rpi-tph-docs
- * [new branch]      develop    -> upstream/develop
- * [new branch]      i10n/en    -> upstream/i10n/en
- * [new branch]      i10n/ja    -> upstream/i10n/ja
- * [new branch]      main       -> upstream/main
-```
-
 ```shell
 $ git branch --all
 * i10n/ja
@@ -123,12 +112,42 @@ $ git branch --all
   remotes/upstream/i10n/en
   remotes/upstream/i10n/ja
   remotes/upstream/main
+```
+
+Syncronize upstream, document main repository.
+
+```shell
+$ git fetch upstream
+From github.com:mitsuhisaT/django-rpi-tph-docs
+   18c17fb..537f31c  develop    -> upstream/develop
+   18c17fb..dfea83c  i10n/ja    -> upstream/i10n/ja
+```
+
+```shell
+$ git merge upstream/develop
+Updating 18c17fb..537f31c
+Fast-forward
+ README.md                                    | 13 +++++++++++--
+ docs/locale/ja/LC_MESSAGES/gettingstarted.po | 50 ++++++++++++++++++++++++--------------------------
+ docs/locale/ja/LC_MESSAGES/index.po          | 20 ++++++++------------
+ docs/locale/ja/LC_MESSAGES/prepare.po        |  4 ++--
+ docs/requirements.txt                        |  2 +-
+ 5 files changed, 46 insertions(+), 43 deletions(-)
+
+$ git push
+
 $ git merge upstream/i10n/ja
 Already up to date.
 $ git push
 Everything up-to-date
 ```
 
-You can edit po files in `locale/{language code}/LC_MESSAGES` for translate Japanese.
+## change branch
+
+```shell
+$ git checkout i10n/{language code}
+```
+
+Then, you can edit po files in `locale/{language code}/LC_MESSAGES` for translate Japanese.
 
 After translate, you must commit, push and pull request.
