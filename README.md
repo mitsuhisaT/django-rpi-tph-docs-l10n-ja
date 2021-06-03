@@ -1,5 +1,5 @@
 # django-rpi-tph-docs
-Documents for my django-rpi-tph-monitor project.
+Documents for my [django-rpi-tph-monitor](https://github.com/mitsuhisaT/django-rpi-tph-monitor) project.
 
 # English document(default)
 
@@ -38,17 +38,26 @@ Please read
 Generate po files.
 
 ```shell
+$ cd docs
+$ make gettext
 $ sphinx-intl update -p _build/gettext -l ja
 ```
 
 Commit and Push po files.
 
 ```shell
+$ git add locale/ja/LC_MESSAGES/*.po
 $ git commit -m "docs: because update and add some describes."
 $ git push
 ```
 
-TODO describe merge to develop branch.
+## merge develop
+
+```shell
+$ git checkout develop
+$ git mearge i10n/ja
+$ git push
+```
 
 Last, change default branch `i10n/en`.
 
