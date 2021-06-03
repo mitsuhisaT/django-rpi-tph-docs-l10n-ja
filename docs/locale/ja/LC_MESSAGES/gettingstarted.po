@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TPH forecast with Raspberry Pi and TensorFlow. \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-13 08:43+0900\n"
+"POT-Creation-Date: 2021-06-04 07:09+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,9 +26,7 @@ msgstr "開発"
 msgid ""
 "This is setup protocol for developing Home automation with Raspberry PI "
 "and AI."
-msgstr ""
-"これは、Raspberry PIとAIを使用してホームオートメーションを開発するためのセットアップ"
-"手順です。"
+msgstr "これは、Raspberry PIとAIを使用してホームオートメーションを開発するためのセットアップ手順です。"
 
 #: ../../gettingstarted.rst:8
 msgid "Not yet complete this project."
@@ -79,7 +77,8 @@ msgid "You may install Python packages via `pip`."
 msgstr "`pip`を使ってPythonパッケージをインストールできます。"
 
 #: ../../gettingstarted.rst:39
-msgid "Development On your Mac, Ubuntu, or MS-Windows."
+#, fuzzy
+msgid "On your development Mac, Ubuntu, or MS-Windows."
 msgstr "Mac、Ubuntu、またはMS-Windowsでの開発。"
 
 #: ../../gettingstarted.rst:46
@@ -95,7 +94,8 @@ msgid "Enable i2c via raspi-config."
 msgstr "raspi-configを使ってi2cを有効にします。"
 
 #: ../../gettingstarted.rst:73
-msgid "Add into i2c group your user account."
+#, fuzzy
+msgid "Add i2c group your user account."
 msgstr "ユーザーアカウントをi2cグループに追加します。"
 
 #: ../../gettingstarted.rst:80
@@ -107,8 +107,8 @@ msgid ""
 "`How to Install MariaDB on Raspberry Pi? <https://raspberrytips.com"
 "/install-mariadb-raspberry-pi/>`__"
 msgstr ""
-"`Raspberry PiにMariaDBをインストールする方法は？  <https://raspberrytips.com"
-"/install-mariadb-raspberry-pi/>`__"
+"`Raspberry PiにMariaDBをインストールする方法は？  <https://raspberrytips.com/install-"
+"mariadb-raspberry-pi/>`__"
 
 #: ../../gettingstarted.rst:83
 msgid ""
@@ -139,7 +139,8 @@ msgid "You should install another python modules."
 msgstr "別のPythonモジュールをインストールする必要があります。"
 
 #: ../../gettingstarted.rst:132
-msgid "And edit your 'tph/tph/settings.py'"
+#, fuzzy
+msgid "And edit your tph/tph/settings.py"
 msgstr "そして、'tph/tph/settings.py' を編集します"
 
 #: ../../gettingstarted.rst:141
@@ -159,8 +160,8 @@ msgid ""
 "`ide-python <https://atom.io/packages/ide-python>`__ ; support Atom-IDE "
 "Python language"
 msgstr ""
-"`ide-python <https://atom.io/packages/ide-python>`__ ; Atom-IDE Python言語"
-"のサポート"
+"`ide-python <https://atom.io/packages/ide-python>`__ ; Atom-IDE "
+"Python言語のサポート"
 
 #: ../../gettingstarted.rst:146
 msgid ""
@@ -172,9 +173,7 @@ msgstr ""
 msgid ""
 "`Hydrogen <https://atom.io/packages/hydrogen>`__ ; interactive coding "
 "environment in atom"
-msgstr ""
-"`Hydrogen <https://atom.io/packages/hydrogen>`__ ; atom の"
-"対話コーディング環境"
+msgstr "`Hydrogen <https://atom.io/packages/hydrogen>`__ ; atom の対話コーディング環境"
 
 #: ../../gettingstarted.rst:150
 msgid "setup for Hydrogen"
@@ -227,12 +226,13 @@ msgid "Background tasks"
 msgstr "Background tasks"
 
 #: ../../gettingstarted.rst:228
+#, fuzzy
 msgid ""
 "I selected `Django Background Tasks <https://github.com/arteria/django-"
-"background-tasks>`__ for save as interval datas."
+"background-tasks>`__ for save datas interval."
 msgstr ""
-"間隔データとして保存するために `Django Background Tasks <https://github.com/arteria/django-"
-"background-tasks>`__ を選択した。"
+"間隔データとして保存するために `Django Background Tasks <https://github.com/arteria"
+"/django-background-tasks>`__ を選択した。"
 
 #: ../../gettingstarted.rst:229
 msgid "For Django 3.2, ``pip install django-background-tasks``."
@@ -275,25 +275,22 @@ msgid ""
 "You can check tasks from your database that default is db.sqlite3. See "
 "background_task, background_task_completed_tasks, or monitor_bme280 "
 "tables."
-msgstr ""
-"デフォルトがdb.sqlite3であるデータベースからタスクをチェックできます。"
-"background_task、background_task_completed_tasks、またはmonitor_bme280テーブルを"
-"参照してください。"
+msgstr "デフォルトがdb.sqlite3であるデータベースからタスクをチェックできます。background_task、background_task_completed_tasks、またはmonitor_bme280テーブルを参照してください。"
 
 #: ../../gettingstarted.rst:287
 msgid "Documentation"
 msgstr "ドキュメンテーション"
 
 #: ../../gettingstarted.rst:289
+#, fuzzy
 msgid ""
-"This project's documents have making with `SPHINX <https://www.sphinx-"
+"This project's documents are making with `SPHINX <https://www.sphinx-"
 "doc.org/en/master/>`_. How to use, please see `Installing Sphinx "
 "<https://www.sphinx-doc.org/en/master/usage/installation.html>`_."
 msgstr ""
-"このプロジェクトのドキュメントは `SPHINX <https://www.sphinx-"
-"doc.org/en/master/>`_. で作成されています。使い方はこちらをご覧ください  `Installing Sphinx "
-"<https://www.sphinx-doc.org/en/master/usage/installation.html>`_."
-
+"このプロジェクトのドキュメントは `SPHINX <https://www.sphinx-doc.org/en/master/>`_. "
+"で作成されています。使い方はこちらをご覧ください  `Installing Sphinx <https://www.sphinx-"
+"doc.org/en/master/usage/installation.html>`_."
 
 #: ../../gettingstarted.rst:293
 msgid "If you are using PyEnv, you must install via ``pip``."
@@ -322,3 +319,4 @@ msgstr "ドキュメントを作る。"
 #: ../../gettingstarted.rst:326
 msgid "You can create document."
 msgstr "ドキュメントを作成できます。"
+
