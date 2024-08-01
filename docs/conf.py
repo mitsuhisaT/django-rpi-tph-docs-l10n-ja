@@ -15,6 +15,7 @@
 # sys.path.insert(0, os.path.abspath('.'))
 # import sphinx_rtd_theme
 
+latex_engine = 'xelatex'
 
 # -- Project information -----------------------------------------------------
 
